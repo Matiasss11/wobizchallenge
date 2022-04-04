@@ -5,6 +5,7 @@ $matrizIn = array(array());
 $matrizOut = array(array());
 $i = 0;
 $data = array();
+
 while ($line = fgets($txt_file)) {
     $data = explode(" ", $line);
     $matrizIn[$i] = $data;
